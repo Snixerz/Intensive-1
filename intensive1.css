@@ -1,18 +1,18 @@
 body {
-    background-color: #b33939;
+    background-color: rgb(9, 31, 80);
 }
 
 .title-color{
-    color: #c0392b;
+    color: white;
     text-align: center;
-    background-color: maroon;
-    border: 3px solid rgb(107, 15, 15);
+    background-color: #123179;
+    border: 3px solid #021d5c;
 }
 
 .demobox1 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -20,9 +20,9 @@ body {
     right: 1015;
   }
 .demobox2 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -31,9 +31,9 @@ body {
   }
 
 .demobox3 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -42,9 +42,9 @@ body {
   }
 
 .demobox4 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -53,9 +53,9 @@ body {
   }
 
 .demobox5 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -64,9 +64,9 @@ body {
   }
 
 .demobox6 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -75,9 +75,9 @@ body {
   }
 
 .demobox7 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -86,9 +86,9 @@ body {
   }
 
 .demobox8 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -97,9 +97,9 @@ body {
   }
 
 .demobox9 {
-    background-color: #e74c3c;
+    background-color: #3867d6;
     padding: 100px ;
-    border: 3px solid #c0392b;
+    border: 3px solid #4b7bec;
     width: 200px;
     height: 30px;
     position: absolute;
@@ -113,3 +113,47 @@ body {
     border: 5px solid gray;
     margin: 0; 
   }
+
+.button {
+    background-color: #0652DD;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.button1:hover {
+    color: rgb(21, 120, 248);
+    background-color: #123179;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24),0 20px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.title-box1 {
+    text-align: center;
+    color: white;
+    background-color: #123179;
+    border: 3px solid #021d5c;
+    padding: 10px;
+    width: 170px;
+    height: 15px;
+    position: absolute;
+    bottom: 720;
+    right: 1035;
+}
+
+.comment-box {
+    text-align: center;
+    color: white;
+    background-color: #123179;
+    border: 3px solid #021d5c;
+    padding: 50px;
+    width: 90px;
+    height: 45px;
+    position: absolute;
+    bottom: 560;
+    right: 1035;
+    font-size: 14px;
+}
+
