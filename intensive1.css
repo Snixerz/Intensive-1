@@ -11,20 +11,20 @@ body {
 
 .demobox1 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 550;
     right: 1015;
   }
 .demobox2 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 290;
     right: 1015;
@@ -32,10 +32,10 @@ body {
 
 .demobox3 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 30;
     right: 1015;
@@ -43,10 +43,10 @@ body {
 
 .demobox4 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 550;
     right: 515;
@@ -54,10 +54,10 @@ body {
 
 .demobox5 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 290;
     right: 515;
@@ -65,10 +65,10 @@ body {
 
 .demobox6 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 30;
     right: 515;
@@ -76,10 +76,10 @@ body {
 
 .demobox7 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 550;
     right: 25;
@@ -87,10 +87,10 @@ body {
 
 .demobox8 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 290;
     right: 25;
@@ -98,10 +98,10 @@ body {
 
 .demobox9 {
     background-color: #3867d6;
-    padding: 100px ;
+    padding: 10px;
     border: 3px solid #4b7bec;
-    width: 200px;
-    height: 30px;
+    width: 380px;
+    height: 200px;
     position: absolute;
     bottom: 30;
     right: 25;
@@ -118,7 +118,7 @@ body {
     background-color: #0652DD;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 30px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -143,7 +143,7 @@ body {
     right: 1035;
 }
 
-.comment-box {
+.comment-box1 {
     text-align: center;
     color: white;
     background-color: #123179;
@@ -157,3 +157,31 @@ body {
     font-size: 14px;
 }
 
+.title-box2 {
+    text-align: center;
+    color: white;
+    background-color: #123179;
+    border: 3px solid #021d5c;
+    padding: 10px;
+    width: 170px;
+    height: 15px;
+    position: absolute;
+    animation: backwards;
+    bottom: 720;
+    right: 805;
+    top: 100px;
+}
+
+.comment-box2 {
+    text-align: center;
+    color: white;
+    background-color: #123179;
+    border: 3px solid #021d5c;
+    padding: 50px;
+    width: 90px;
+    height: 45px;
+    position: absolute;
+    bottom: 560;
+    right: 1035;
+    font-size: 14px;
+}
