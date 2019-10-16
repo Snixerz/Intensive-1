@@ -1,11 +1,115 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Workouts</title>
-</head>
-<body>
-    
-</body>
-</html>
+body {
+    background-color: #b33939;
+}
+
+.title-color{
+    color: #c0392b;
+    text-align: center;
+    background-color: maroon;
+    border: 3px solid rgb(107, 15, 15);
+}
+
+.demobox1 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 550;
+    right: 1015;
+  }
+.demobox2 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 290;
+    right: 1015;
+  }
+
+.demobox3 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 30;
+    right: 1015;
+  }
+
+.demobox4 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 550;
+    right: 515;
+  }
+
+.demobox5 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 290;
+    right: 515;
+  }
+
+.demobox6 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 30;
+    right: 515;
+  }
+
+.demobox7 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 550;
+    right: 25;
+  }
+
+.demobox8 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 290;
+    right: 25;
+  }
+
+.demobox9 {
+    background-color: #e74c3c;
+    padding: 100px ;
+    border: 3px solid #c0392b;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 30;
+    right: 25;
+  }  
+
+.div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+  }
