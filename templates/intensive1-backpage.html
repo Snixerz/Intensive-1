@@ -9,10 +9,13 @@
 <body>
     <h1 class="title-color">View your workout routine</h1>
     {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+    
         {%if section.item == '1'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2015/01/back-leg-lifts-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">1) Back Leg</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2015/01/back-leg-lifts-exercise-illustration-300x200.jpg">
+        
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
@@ -22,86 +25,126 @@
             <input type = 'text' name = 'amount'>
             <button type="submit">Edit</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        {%endif%}
+
+    
         {%if section.item == '2'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2014/10/crunches-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">2) Crunches</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2014/10/crunches-exercise-illustration-300x200.jpg">
+        
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%} 
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
         {%if section.item == '3'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2014/10/high-knees-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">3) High Knees</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2014/10/high-knees-exercise-illustration-300x200.jpg">
+      
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
         {%if section.item == '4'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2014/10/push-up-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">4) Push Up</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2014/10/push-up-exercise-illustration-300x200.jpg">
+      
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
         {%if section.item == '5'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2015/08/jump-squat-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">5) Jump Squat</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2015/08/jump-squat-exercise-illustration-300x200.jpg">
+     
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
         {%if section.item == '6'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2014/10/jumping-jacks-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">6) Jumping Jacks</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2014/10/jumping-jacks-exercise-illustration-300x200.jpg">
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
         {%if section.item == '7'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2014/10/plank-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">7) Planks</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2014/10/plank-exercise-illustration-300x200.jpg">
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%} 
         {%if section.item == '8'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2016/09/front-and-back-lunges-exercise-illustration-spotebi-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">8) Lunges</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div>
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2016/09/front-and-back-lunges-exercise-illustration-spotebi-300x200.jpg">
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
-    {%endfor%}
-    {% for section in item%} 
-     <p>This is the list of item numbers added {{section}}</p> 
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
         {%if section.item == '9'%}
-        <img src = "https://www.cdn.spotebi.com/wp-content/uploads/2014/10/mountain-climbers-exercise-illustration-300x200.jpg">
-        {%endif%}
+        <div class="title-color" style="font-size: 50;">9) Mountain Climbers</div>
+        <div class="title-color" style="font-size: 50;">10 set || 3 Reps</div> 
+        <img src="https://www.cdn.spotebi.com/wp-content/uploads/2014/10/mountain-climbers-exercise-illustration-300x200.jpg">
         <form method="POST" action = "/delete">
             <input type="hidden" name = "item" value = '{{section._id}}'>
             <button type="submit">Remove</button>
         </form>
+        <form method="POST" action = "/edit">
+            <input type="hidden" name = "item" value = '{{section._id}}'>
+            <input type = 'text' name = 'amount'>
+            <button type="submit">Edit</button>
+        </form>
+        {%endif%}
     {%endfor%}
 
 </body>
